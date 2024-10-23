@@ -177,7 +177,7 @@ namespace GestorDeTurnos
                 process.Start();
 
                 // Esperar que el proceso finalice antes de continuar
-                process.WaitForExit(10000); // Tiempo de espera en milisegundos (10 segundos)
+                process.WaitForExit(10000); // Tiempo de espera en milisegundos (10 segundos) para procesar
                 process.Close();
                 MessageBox.Show("Impresión correcta");
             }
