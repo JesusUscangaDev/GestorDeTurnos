@@ -166,7 +166,7 @@ namespace GestorDeTurnos
             ProcessStartInfo psi = new ProcessStartInfo
             {
                 Verb = "print",  // Verbo "print" para imprimir
-                FileName = filePath,  // Ruta del archivo PDF
+                FileName = filePath,  // Ruta del archivo PDF en la computadora
                 UseShellExecute = true,  // Ejecutar con Shell para usar la aplicación predeterminada
                 CreateNoWindow = true,  // No crear una ventana visible
             };
@@ -176,7 +176,7 @@ namespace GestorDeTurnos
                 Process process = new Process { StartInfo = psi };
                 process.Start();
 
-                // Esperar que el proceso finalice antes de continuar
+                // Esperar que el proceso finalice antes de continuar con lo siguiente
                 process.WaitForExit(10000); // Tiempo de espera en milisegundos (10 segundos) para procesar
                 process.Close();
                 MessageBox.Show("Impresión correcta");
