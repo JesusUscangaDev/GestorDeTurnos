@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rande\\OneDrive\\Documentos\\Proyectos\\GestorDeTurnos\\GestorDeTurnos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EDC1937B-3EF4-478D-A916-B4394D109B3C}|GestorDeTurnos\\GestorDeTurnos.csproj|c:\\users\\rande\\onedrive\\documentos\\proyectos\\gestordeturnos\\gestordeturnos\\gestordeturnos\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDC1937B-3EF4-478D-A916-B4394D109B3C}|GestorDeTurnos\\GestorDeTurnos.csproj|solutionrelative:gestordeturnos\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDC1937B-3EF4-478D-A916-B4394D109B3C}|GestorDeTurnos\\GestorDeTurnos.csproj|c:\\users\\rande\\onedrive\\documentos\\proyectos\\gestordeturnos\\gestordeturnos\\gestordeturnos\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EDC1937B-3EF4-478D-A916-B4394D109B3C}|GestorDeTurnos\\GestorDeTurnos.csproj|solutionrelative:gestordeturnos\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Rande\\OneDrive\\Documentos\\Proyectos\\GestorDeTurnos\\GestorDeTurnos\\GestorDeTurnos\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "GestorDeTurnos\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Rande\\OneDrive\\Documentos\\Proyectos\\GestorDeTurnos\\GestorDeTurnos\\GestorDeTurnos\\MainWindow.xaml",
+              "RelativeToolTip": "GestorDeTurnos\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-18T02:05:03.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Rande\\OneDrive\\Documentos\\Proyectos\\GestorDeTurnos\\GestorDeTurnos\\GestorDeTurnos\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "GestorDeTurnos\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Rande\\OneDrive\\Documentos\\Proyectos\\GestorDeTurnos\\GestorDeTurnos\\GestorDeTurnos\\MainWindow.xaml.cs",
+              "RelativeToolTip": "GestorDeTurnos\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAwwFIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T02:15:22.351Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
