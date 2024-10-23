@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GestorDeTurnos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4556cbdd0d9971d17974addb5193bdb8d4835f71")]
 [assembly: System.Reflection.AssemblyProductAttribute("GestorDeTurnos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GestorDeTurnos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

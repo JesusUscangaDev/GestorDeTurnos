@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rande\\OneDrive\\Documentos\\Proyectos\\GestorDeTurnos\\GestorDeTurnos\\GestorDeTurnos\\GestorDeTurnos.csproj": {}
+    "C:\\JesusUscanga\\Roger\\Proyectos\\GestorDeTurnos\\GestorDeTurnos\\GestorDeTurnos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rande\\OneDrive\\Documentos\\Proyectos\\GestorDeTurnos\\GestorDeTurnos\\GestorDeTurnos\\GestorDeTurnos.csproj": {
+    "C:\\JesusUscanga\\Roger\\Proyectos\\GestorDeTurnos\\GestorDeTurnos\\GestorDeTurnos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rande\\OneDrive\\Documentos\\Proyectos\\GestorDeTurnos\\GestorDeTurnos\\GestorDeTurnos\\GestorDeTurnos.csproj",
+        "projectUniqueName": "C:\\JesusUscanga\\Roger\\Proyectos\\GestorDeTurnos\\GestorDeTurnos\\GestorDeTurnos.csproj",
         "projectName": "GestorDeTurnos",
-        "projectPath": "C:\\Users\\Rande\\OneDrive\\Documentos\\Proyectos\\GestorDeTurnos\\GestorDeTurnos\\GestorDeTurnos\\GestorDeTurnos.csproj",
-        "packagesPath": "C:\\Users\\Rande\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rande\\OneDrive\\Documentos\\Proyectos\\GestorDeTurnos\\GestorDeTurnos\\GestorDeTurnos\\obj\\",
+        "projectPath": "C:\\JesusUscanga\\Roger\\Proyectos\\GestorDeTurnos\\GestorDeTurnos\\GestorDeTurnos.csproj",
+        "packagesPath": "C:\\Users\\Cpu\\.nuget\\packages\\",
+        "outputPath": "C:\\JesusUscanga\\Roger\\Proyectos\\GestorDeTurnos\\GestorDeTurnos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Rande\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Cpu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

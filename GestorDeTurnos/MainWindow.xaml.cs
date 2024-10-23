@@ -22,7 +22,7 @@ namespace GestorDeTurnos
         public MainWindow()
         {
             InitializeComponent();
-            CargarModulosDeDb();
+            //CargarModulosDeDb();
         }
 
         private void CargarModulosDeDb()
@@ -57,20 +57,22 @@ namespace GestorDeTurnos
         // Evento del botón para solicitar turno
         private void SolicitarTurno_Click(object sender, RoutedEventArgs e)
         {
-            if (cbModulos.SelectedItem == null)
-            {
-                MessageBox.Show("Seleccione un modulo.");
-                return;
-            }
+            //if (cbModulos.SelectedItem == null)
+            //{
+            //    MessageBox.Show("Seleccione un modulo.");
+            //    return;
+            //}
 
-            Modulo moduloSeleccionado = (Modulo)cbModulos.SelectedItem;
+            //Modulo moduloSeleccionado = (Modulo)cbModulos.SelectedItem;
 
-            string nuevoTurno = GenerarTurnoParaModulo(moduloSeleccionado.Id);
+            //string nuevoTurno = GenerarTurnoParaModulo(moduloSeleccionado.Id);
+            string nuevoTurno = "C";
             if (!string.IsNullOrEmpty(nuevoTurno))
             {
                 // Generar ticket en PDF
-                GenerarTicketPDF(nuevoTurno, moduloSeleccionado.Nombre);
+                //GenerarTicketPDF(nuevoTurno, moduloSeleccionado.Nombre);
             }
+            GenerarTicketPDF(nuevoTurno, "C");
         }
 
         // Método para generar un nuevo turno para el modulo seleccionado
@@ -120,8 +122,8 @@ namespace GestorDeTurnos
                 // Añadir contenido al ticket
                 doc.Add(new Paragraph("Aquí va a ir un título o algo"));
                 doc.Add(new Paragraph("---------------"));
-                doc.Add(new Paragraph($"Turno: {turno}"));
-                doc.Add(new Paragraph($"Modulo: {modulo}"));
+                doc.Add(new Paragraph($"Turno: 23"));
+                doc.Add(new Paragraph($"Modulo: C"));
                 doc.Add(new Paragraph("---------------"));
                 doc.Add(new Paragraph("Gracias por su visita"));
 
@@ -140,26 +142,49 @@ namespace GestorDeTurnos
 
         private void ImprimirTicket(string filePath)
         {
+            /* try
+             {
+                 // Crea un nuevo proceso para la impresión
+                 Process printProcess = new Process();
+                 printProcess.StartInfo.FileName = filePath;  // El archivo PDF generado
+                 printProcess.StartInfo.Verb = "print";       // Acción de imprimir
+                 printProcess.StartInfo.CreateNoWindow = true;
+                 printProcess.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
+
+                 // Nombre de la impresora donde se imprimirá
+                 printProcess.StartInfo.Arguments = "/p /h \"" + filePath + "\" \"" + PrinterSettings.InstalledPrinters[0] + "\"";
+
+                 // Inicia el proceso de impresión
+                 printProcess.Start();
+                 printProcess.WaitForExit(5000);  // Espera un máximo de 5 segundos
+                 printProcess.Close();
+             }
+             catch (Exception ex)
+             {
+                 MessageBox.Show($"Error al imprimir ticket: {ex.Message}");
+             }*/
+            ProcessStartInfo psi = new ProcessStartInfo
+            {
+                Verb = "print",  // Verbo "print" para imprimir
+                FileName = filePath,  // Ruta del archivo PDF
+                UseShellExecute = true,  // Ejecutar con Shell para usar la aplicación predeterminada
+                CreateNoWindow = true,  // No crear una ventana visible
+            };
+
             try
             {
-                // Crea un nuevo proceso para la impresión
-                Process printProcess = new Process();
-                printProcess.StartInfo.FileName = filePath;  // El archivo PDF generado
-                printProcess.StartInfo.Verb = "print";       // Acción de imprimir
-                printProcess.StartInfo.CreateNoWindow = true;
-                printProcess.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
+                Process process = new Process { StartInfo = psi };
+                process.Start();
 
-                // Nombre de la impresora donde se imprimirá
-                printProcess.StartInfo.Arguments = "/p /h \"" + filePath + "\" \"" + PrinterSettings.InstalledPrinters[0] + "\"";
-
-                // Inicia el proceso de impresión
-                printProcess.Start();
-                printProcess.WaitForExit(5000);  // Espera un máximo de 5 segundos
-                printProcess.Close();
+                // Esperar que el proceso finalice antes de continuar
+                process.WaitForExit(10000); // Tiempo de espera en milisegundos (10 segundos)
+                process.Close();
+                MessageBox.Show("Impresión correcta");
             }
             catch (Exception ex)
             {
                 MessageBox.Show($"Error al imprimir ticket: {ex.Message}");
+                Console.WriteLine($"Error al imprimir: {ex.Message}");
             }
         }
 
@@ -176,4 +201,5 @@ namespace GestorDeTurnos
             }
         }
     }
+}
 }
