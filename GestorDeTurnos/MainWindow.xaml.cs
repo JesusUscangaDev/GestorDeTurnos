@@ -176,6 +176,8 @@ namespace GestorDeTurnos
                 Process process = new Process { StartInfo = psi };
                 process.Start();
 
+                //Comentario desde la lap
+
                 // Esperar que el proceso finalice antes de continuar con lo siguiente
                 process.WaitForExit(10000); // Tiempo de espera en milisegundos (10 segundos) para procesar
                 process.Close();

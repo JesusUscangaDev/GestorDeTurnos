@@ -10,11 +10,11 @@
         "projectUniqueName": "C:\\JesusUscanga\\Roger\\Proyectos\\GestorDeTurnos\\GestorDeTurnos\\GestorDeTurnos.csproj",
         "projectName": "GestorDeTurnos",
         "projectPath": "C:\\JesusUscanga\\Roger\\Proyectos\\GestorDeTurnos\\GestorDeTurnos\\GestorDeTurnos.csproj",
-        "packagesPath": "C:\\Users\\Cpu\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\JesusUscanga\\.nuget\\packages\\",
         "outputPath": "C:\\JesusUscanga\\Roger\\Proyectos\\GestorDeTurnos\\GestorDeTurnos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Cpu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JesusUscanga\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
